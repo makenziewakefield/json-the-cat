@@ -16,7 +16,7 @@ const fetchBreedDescription = (breedName, callback) => {
         callback(new Error('No data found for breed.'), null);
       }
     }
-  })
-}
+  });
+};
 
 module.exports = { fetchBreedDescription };

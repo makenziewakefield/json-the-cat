@@ -11,7 +11,7 @@ const breedFetcher = () => {
       } else {
         console.log("Description: ", description);
       }
-    })
+    });
   }
 };
 
